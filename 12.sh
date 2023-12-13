@@ -15,8 +15,10 @@ done
 echo -e "please pick a number between 0-20 : \c"
 read num
 
-while (( $num <= 20 ))
+while (( $num <= 9 ))
 do
-    echo $num
+    #echo $num
     (( num++ ))
+    #sleep 1 || adding a break for 1 second
+    notepad
 done
