@@ -14,3 +14,11 @@ done
 
 '
 
+echo "pick a number from 1 to 20"
+read num
+
+until (( $num >= 20 ))
+do 
+    echo $num
+    (( num++ ))
+done
