@@ -6,6 +6,7 @@ if (( $# != 1 ))
 then
     echo "this script requires exactly one directory path passed to it."
     echo "please try again"
+	exit 1
 else
     echo "you have $lines in $1 directory"
 fi
