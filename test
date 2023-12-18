@@ -1,3 +1,6 @@
+#!/bin/bash
+
+echo "
 the was a farmer had a dog and binggo was is name o
 this is another test
 this is the second line of the test
@@ -8,4 +11,10 @@ testing again
 testing
 test 
 testing
-testing again again
+testing again again"
+
+
+
+
+#sed -i -e 's/\r$//' 11.sh
+
